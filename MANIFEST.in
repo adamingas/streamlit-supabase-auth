@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+recursive-include src/public *.html
+include src/streamlit_supabase_auth/py.typed
+

@@ -1,0 +1,20 @@
+[project]
+name = "streamlit-supabase-auth"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Adamos Spanashis", email = "adamingas@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "streamlit>=1.48.1",
+    "streamlit-url-fragments>=0.1.2",
+]
+
+[project.scripts]
+streamlit-supabase-auth = "streamlit_supabase_auth:main"
+
+[build-system]
+requires = ["uv_build>=0.8.5,<0.9.0"]
+build-backend = "uv_build"

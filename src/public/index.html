@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <script>
+        // Clear URL fragment from parent window
+        (function() {
+            const win = window.top || window.parent || window;
+            if (win.location.hash) {
+                win.history.replaceState(null, '', win.location.pathname + win.location.search);
+            }
+        })();
+    </script>
+</body>
+</html>
+
