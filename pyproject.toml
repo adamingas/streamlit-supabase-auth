@@ -1,7 +1,7 @@
 [project]
 name = "streamlit-supabase-auth"
 version = "0.1.0"
-description = "Add your description here"
+description = "Simple Supabase auth for streamlit."
 readme = "README.md"
 authors = [
     { name = "Adamos Spanashis", email = "adamingas@gmail.com" }
