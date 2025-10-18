@@ -5,7 +5,6 @@ import os
 
 import streamlit as st
 from streamlit_supabase_auth import SupabaseAuth
-from supabase_auth import User
 
 st.set_page_config(
     page_title="Streamlit Supabase Auth Demo",
