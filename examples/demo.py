@@ -4,7 +4,7 @@ Short demo of how the streamlit-supabase-auth package works.
 import os
 
 import streamlit as st
-from streamlit_supabase_auth import SupabaseAuth
+from streamlit_supabase_auth_flow import SupabaseAuth
 
 st.set_page_config(
     page_title="Streamlit Supabase Auth Demo",

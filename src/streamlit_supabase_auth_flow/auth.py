@@ -99,19 +99,15 @@ class SupabaseAuth:
 
             if access_token and refresh_token:
                 try:
-                    # Set Supabase session
                     self.client.auth.set_session(access_token, refresh_token)
 
-                    # Store in session state
                     st.session_state.supabase_auth_authenticated = True
                     st.session_state.supabase_auth_access_token = access_token
                     st.session_state.supabase_auth_refresh_token = refresh_token
                     st.session_state.supabase_auth_tokens_processed = True
 
-                    # Clear URL fragment for security
                     _clear_url_fragment()
 
-                    # Rerun to show authenticated state
                     st.rerun()
 
                 except Exception as e:
