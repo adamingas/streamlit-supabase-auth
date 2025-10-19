@@ -1,6 +1,6 @@
 [project]
 name = "streamlit-supabase-auth-flow"
-version = "0.1.0"
+version = "0.0.1"
 description = "Simple Supabase auth for streamlit using implicit flow."
 readme = "README.md"
 authors = [
